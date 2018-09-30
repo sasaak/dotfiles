@@ -56,6 +56,7 @@ Get-AppxPackage *Netflix* | Remove-AppxPackage
 Get-AppxPackage *Dropbox* | Remove-AppxPackage
 Get-AppxPackage *CandyCrush* | Remove-AppxPackage
 Get-AppxPackage *MarchofEmpires* | Remove-AppxPackage
+Get-AppxPackage *HiddenCity* | Remove-AppxPackage
 
 choco install Microsoft-Hyper-V-All -source windowsFeatures
 choco install Microsoft-Windows-Subsystem-Linux -source windowsfeatures
@@ -69,6 +70,7 @@ choco install git.install
 choco install sourcetree
 choco install hyper
 choco install keyhac
+choco install adobereader
 
 Enable-UAC
 Enable-MicrosoftUpdate
