@@ -71,6 +71,7 @@ choco install sourcetree
 choco install hyper
 choco install keyhac
 choco install adobereader
+choco install visualstudio2017community
 
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile ~/Ubuntu.appx -UseBasicParsing
 Add-AppxPackage -Path ~/Ubuntu.appx
