@@ -1,3 +1,8 @@
+# Configure network settings
+# netsh interface ip set address "local network" static my.ip.address.here my.network.mask.here my.default.gateway.here
+# netsh interface ip set dns "local network" static my.dns.address.here primary
+# WMIC computersystem where caption='current_pc_name' rename new_pc_name
+
 # Install Boxstarter:
 # Set-ExecutionPolicy RemoteSigned
 # . { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; get-boxstarter -Force
@@ -49,3 +54,6 @@ Add-AppxPackage -Path ~/Ubuntu.appx
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
+
+# Not automated:
+# jetbrains tools, VS2010, VS2019 preview, dotnet core preview, Affinity tools, Sign tools 
