@@ -19,7 +19,7 @@ Enable-RemoteDesktop
 # Code
 choco install Microsoft-Hyper-V-All -source windowsFeatures
 choco install Microsoft-Windows-Subsystem-Linux -source windowsfeatures
-choco install docker-for-windows
+choco install docker-desktop
 choco install git.install
 choco install svn
 choco install anaconda3
@@ -36,7 +36,7 @@ choco install googlejapaneseinput
 choco install 7zip.install
 choco install imgburn
 choco install inkscape
-choco install gimp
+# choco install gimp インストールに失敗する。powershellからchocoならいけた。
 
 # Apps
 choco install googlechrome
